@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease;
+    
+}
+
+header {
+    background-color: #01d9ff;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(6, 6, 6, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: rgb(252, 231, 0);
+}
+
+.hero, .hero2 {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #00796b;
+}
+
+.image-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-button img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.image-button22 img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #e83c3c;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.image-button img:hover {
+    transform: scale(1.05);
+    border-color: rgb(1, 162, 255);
+}
+
+.image-button p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.tro {
+    font-size: 20px;
+    color: #e83c3c;  
+}
+
+.gf1{
+    color: #80deea;
+}
+
+.gf2{
+    color: #eb561c;
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+    background-color: #80deea;
+}
+
+footer .image-button img {
+    transform: scale(1);
+}
+
+footer .image-button p {
+    font-size: 1em;
+}
