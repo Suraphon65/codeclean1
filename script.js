@@ -24,3 +24,5 @@ window.addEventListener('scroll', function() {
         document.body.style.backgroundColor = "#26c6da";  // สีเข้มขึ้น
     }
 });
+
+

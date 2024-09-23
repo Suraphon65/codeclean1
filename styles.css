@@ -23,7 +23,7 @@ header {
     background-image: url('hero-bg.jpg');
     background-size: cover;
     text-align: center;
-    padding: 100px 20px;
+    padding: 30px 50px;
 }
 
 h2 {
@@ -93,4 +93,105 @@ footer .image-button img {
 
 footer .image-button p {
     font-size: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #ffe600;
+}
+
+.product-filter a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.product-filter img {
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 55px;
+    transition: transform 0.3s ease;
+}
+
+.product-filter a:hover img {
+    transform: scale(1.05);
+    border-color: #00796b;
+}
+
+.product-filter p {
+    font-size: 2em;
+    color: #333;
+}
+
+/* จัดให้อยู่กลางหน้า */
+.product-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh; /* ให้สูงเต็มหน้าจอ */
+    text-align: center;
+    justify-content: space-around; /* จัดให้เนื้อหามีช่องว่างระหว่างกัน */
+    /* จัดภาพและข้อความให้อยู่ตรงกลางในแนวตั้ง */
+    margin-top: 20px;
+}
+
+.product-filter a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.product-filter img {
+    margin-right: 20px;
+    border: 2px solid #ccc;
+    border-radius: 58px;
+    transition: transform 0.3s ease;
+}
+
+.product-filter a:hover img {
+    transform: scale(1.05);
+    border-color: #05ffe2;
+}
+
+.product-filter p {
+    font-size: 1em;
+    color: #333;
+}
+
+.text_how_to {
+    text-align: center; /* จัดเนื้อหาให้อยู่กลาง */
+    font-size: 18px; /* ขนาดตัวหนังสือ */
+    max-width: 600px; /* จำกัดความกว้างของเนื้อหาเพื่อให้อ่านง่ายขึ้น */
+    margin: 0 auto; /* จัดให้อยู่กลางโดยใช้ margin */
+}
+
+.text_how_to h1 {
+    font-size: 64px; /* ปรับขนาดหัวข้อ H3 */
+    margin-bottom: 15px; /* เพิ่มระยะห่างด้านล่าง */
+    color: #00796b;
+}
+
+.text_how_to h2 {
+    font-size: 28px; /* ปรับขนาดหัวข้อ H2 */
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+.text_how_to h3 {
+    font-size: 24px; /* ปรับขนาดหัวข้อ H3 */
+    margin-bottom: 15px; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+.text_how_to p {
+    font-size: 18px; /* ขนาดตัวหนังสือของเนื้อหา */
+    line-height: 1.6; /* เพิ่มระยะห่างระหว่างบรรทัด */
+    margin-bottom: 15px; /* เพิ่มระยะห่างระหว่างย่อหน้า */
 }
